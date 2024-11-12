@@ -1,0 +1,13 @@
+.news_picture {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+a.tag:before {
+    content: "#";
+}
+
+a.tag:not(:last-child):after {
+    content: ",";
+}

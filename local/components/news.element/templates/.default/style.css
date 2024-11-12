@@ -1,0 +1,8 @@
+.img_news_picture {
+    width: 100%;
+}
+
+.news_picture {
+    object-fit: cover;
+    width: inherit;
+}
